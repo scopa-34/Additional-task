@@ -1,0 +1,59 @@
+.card{
+width: 680px;
+height: 469px;
+top: -4472px;
+left: -3169px;
+}
+.welcome {
+width: 560px;
+height: 56px;
+margin-top: 96px;
+margin-left: 60px;
+color: rgba(74, 85, 102, 1);
+
+}
+.did-not{
+width: 560px;
+height: 44px;
+margin-top:240px ;
+margin-left: 60px;
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(132, 146, 166, 1)
+}
+.footer{
+    width: 560px;
+height: 80px;
+margin-top: 17px;
+font-family: Arial;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(132, 146, 166, 1);
+}
+
+
+
+@media(max-width: 320px) {
+
+    .card {
+      width: 100%;
+      height: auto;
+      top: auto;
+      left: auto;
+    }
+  
+    .welcome,
+    .did-not,
+    .footer {
+      width: 100%;
+      margin: 16px 0;
+    }
+  
+  }
